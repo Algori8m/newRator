@@ -1,0 +1,68 @@
+
+:root{
+    --primaryColor : #f99204ff;
+    --grey1 : #dddddd;
+    --grey2 : #969696;
+    --grey3 : #4e4e4e;
+}
+
+
+/* body{
+    background-color: grey;
+} */
+
+header{
+    background-color:black;
+}
+
+
+#mainContent{
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    margin: 0 0 15px 0;
+    border: none;
+    background-color: var(--grey1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+input{
+    margin: 0 0 15px 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    background-color: var(--grey1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* 
+.categoryList{
+
+} */
+
+button{
+    padding: 10px 15px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primaryColor);
+    cursor:pointer;
+    border-radius: 5px;
+
+}
